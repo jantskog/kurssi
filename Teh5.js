@@ -2,9 +2,9 @@
 // esim. jos argumentti on 1, palautetaan “maanantai”.
 
 let args = process.argv
-//console.log(args[2])
-let a = parseInt(args[2])
-const tehtViisi = (a) => {
+//console.log(args)
+let a = parseInt(args[2]) 
+const tehtViisi = (a) => { 
     if (a>=1 && a<=7) {
     let d
     switch (a) {
@@ -30,9 +30,9 @@ const tehtViisi = (a) => {
           d = "Sunnuntai"
       }
 
-    console.log("Päivä on "+d)
+    return console.log("Päivä on "+d)
     } else { 
-        console.log("Ei ole viikonpäivän järjestysnumero.")
+        return console.log("Ei ole viikonpäivän järjestysnumero.")
     }
 }
 tehtViisi(a)

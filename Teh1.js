@@ -4,9 +4,8 @@
 
 const tehtYksi = (a) => {
     if (a>100) {
-        console.log("syötit luvun, joka on suurempi kuin 100")
-        return
+        return console.log("syötit luvun, joka on suurempi kuin 100")
     }
-    console.log("")
+    return console.log("")
 }
-tehtYksi(120)
+tehtYksi(1)

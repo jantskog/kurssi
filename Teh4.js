@@ -13,7 +13,7 @@ let tunnit = a*3600
 let minuutit = b*60
 let kokonaisAika = tunnit+minuutit+c
 
-console.log("Kokonaisaika sekunteina : "+kokonaisAika)
+return console.log("Kokonaisaika sekunteina : "+kokonaisAika)
 }
 
 const valuuttaMuunnosMarEur = (a) => {
@@ -22,7 +22,7 @@ const valuuttaMuunnosMarEur = (a) => {
     let kerroin = 5.94573
     let markatEuroiksi = a/kerroin
 
-    console.log("Valuutta muunnos : markat "+a+" euroina "+markatEuroiksi.toFixed(2))
+    return console.log("Valuutta muunnos : markat "+a+" euroina "+markatEuroiksi.toFixed(2))
 }
 
 const valuuttaMuunnosEurMar = (a) => {
@@ -31,7 +31,7 @@ const valuuttaMuunnosEurMar = (a) => {
     let kerroin = 5.94573
     let eurotMarkoiksi = a*kerroin
 
-    console.log("Valuutta muunnos : eurot "+a+" markkoina "+eurotMarkoiksi.toFixed(2))
+    return console.log("Valuutta muunnos : eurot "+a+" markkoina "+eurotMarkoiksi.toFixed(2))
 }
 
 tehtNelja(0,1,1)
